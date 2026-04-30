@@ -1,0 +1,58 @@
+{
+  "kmeans": {
+    "optimal_k": 8,
+    "silhouette_score": 0.11343509926865226,
+    "davies_bouldin_score": 2.3669530562168397,
+    "inertia": 48156.40529639787
+  },
+  "gmm": {
+    "optimal_k": 8,
+    "silhouette_score": 0.11362505389873064,
+    "best_bic": -80097.47066995341,
+    "best_aic": -127856.36919454322
+  },
+  "comparison": [
+    {
+      "K": 2,
+      "KMeans_Silhouette": 0.0925,
+      "GMM_Silhouette": 0.0895,
+      "Difference": -0.003
+    },
+    {
+      "K": 3,
+      "KMeans_Silhouette": 0.084,
+      "GMM_Silhouette": 0.0954,
+      "Difference": 0.0114
+    },
+    {
+      "K": 4,
+      "KMeans_Silhouette": 0.089,
+      "GMM_Silhouette": 0.1056,
+      "Difference": 0.0165
+    },
+    {
+      "K": 5,
+      "KMeans_Silhouette": 0.1068,
+      "GMM_Silhouette": 0.1076,
+      "Difference": 0.0007
+    },
+    {
+      "K": 6,
+      "KMeans_Silhouette": 0.0858,
+      "GMM_Silhouette": 0.0852,
+      "Difference": -0.0006
+    },
+    {
+      "K": 7,
+      "KMeans_Silhouette": 0.1012,
+      "GMM_Silhouette": 0.0992,
+      "Difference": -0.002
+    },
+    {
+      "K": 8,
+      "KMeans_Silhouette": 0.1134,
+      "GMM_Silhouette": 0.1136,
+      "Difference": 0.0002
+    }
+  ]
+}
