@@ -1,3 +1,5 @@
-Model,Accuracy,Precision (macro),Recall (macro),F1 (macro)
-Naive Bayes,0.6497,0.7191,0.6497,0.6338
-Logistic Regression,0.8197,0.8356,0.8197,0.8203
+Model,Accuracy,Precision (macro),Recall (macro),F1 (macro),Data
+Naive Bayes,0.6497,0.7191,0.6497,0.6338,Raw
+Logistic Regression,0.8197,0.8356,0.8197,0.8203,Raw
+Naive Bayes,0.7041,0.7129,0.7041,0.7011,PCA_15
+Logistic Regression,0.7007,0.6951,0.7007,0.6969,PCA_15
